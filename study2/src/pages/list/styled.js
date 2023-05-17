@@ -1,21 +1,29 @@
 import styled from 'styled-components';
-export const Title = styled.div`
-  text-align: center;
-  font-size: 30px;
-  font-weight: bold;
-`;
+
 export const Container = styled.ul`
   margin: 0 auto;
-  padding: 10px;
-  width: 100px;
-  text-align: center;
+  padding: 20px 0;
+  width: 1000px;
+  align-items: center;
   background-color: pink;
   color: black;
 `;
-export const li = styled.li`
-  padding: 10px;
+export const ListBox = styled.ul`
+  width: 100%;
   list-style: none;
 `;
-export const Container2 = styled.button`
-  align-item: center;
+export const ListItem = styled.li`
+  display: flex;
+  align-items: center;
+  justify-content space-between;
+  gap: 2px;
+  width: 100%;
 `;
+export const Item = styled.div`
+  display: flex;
+  align-items: center;
+`;
+export const Desc = styled.div`
+  margin: 0 auto;
+`;
+export const Button = styled.button``;
